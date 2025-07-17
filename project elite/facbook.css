@@ -1,0 +1,157 @@
+.social {
+  width: 400px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding: 0 15px;
+}
+
+.social ul {
+  list-style-type: none;
+  display: flex;
+  margin: 16px 0 0 0;
+  align-items: center;
+}
+
+.social li {
+  padding: 0 7px;
+  font-size: 16px;
+}
+
+.social li a {
+  text-decoration: none;
+}
+
+.facebook {
+  height: 30px;
+  width: 30px;
+  background-color: #3b5998;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+}
+
+.twitter {
+  height: 30px;
+  width: 30px;
+  background-color: #0aceee;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+}
+
+.instagram {
+  height: 30px;
+  width: 30px;
+  background-color: #f77737;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+}
+
+.linked-in {
+  height: 30px;
+  width: 30px;
+  background-color: #bd081c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  position: absolute;
+}
+
+.facebook-back {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.twitter-back {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.linked-in-back {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.instagram-back {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* {   :hover on .socialmedia  } */
+
+.facebook:hover {
+  transform: rotateX(-90deg) translateZ(15px);
+  transition: 0.5s;
+}
+
+.facebook-back:hover {
+  transform: rotateX(0deg) translateZ(15px);
+  transition: 1s;
+}
+
+.instagram:hover {
+  transform: rotateX(-90deg) translateZ(15px);
+  transition: 0.5s;
+}
+
+.instagram-back:hover {
+  transform: rotateX(0deg) translateZ(15px);
+  transition: 1s;
+}
+
+.linked-in:hover {
+  transform: rotateX(-90deg) translateZ(15px);
+  transition: 0.5s;
+}
+
+.linked-in-back:hover {
+  transform: rotateX(0deg) translateZ(15px);
+  transition: 1s;
+}
+
+.twitter:hover {
+  transform: rotateX(-90deg) translateZ(15px);
+  transition: 0.5s;
+}
+
+.twitter-back:hover {
+  transform: rotateX(0deg) translateZ(15px);
+  transition: 1s;
+}

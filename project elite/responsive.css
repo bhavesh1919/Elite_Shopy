@@ -1,0 +1,475 @@
+@media screen and (max-width:800px){
+    .container{
+        width:100vw;
+        
+    }
+    .container ul{
+        height:25px;
+        width: 95%;
+        margin: 0px;
+        margin-left: 10px;
+        padding: 10px 0px 0px;
+          justify-content:space-evenly;
+          align-items: center;
+    }
+    .container li{
+        height: inherit;
+       width: 22%;
+       font-size:0.5rem;
+    }
+    .header-bot{
+        height: 130px;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .header-bot .h2{
+        justify-content: flex-start;
+    }
+   
+    .header-bot input {
+        height: 25px;
+        width: 70%;
+        padding: 0px;
+        margin: 0px;  
+       
+    }
+    .header-bot button{
+        height:25px;
+        width: 25px;
+        background-size: contain;
+        
+    }
+     .social{
+        height: 30px;
+        padding: 0px;
+        left: 0px;
+        justify-content: center;
+    }
+    .social ul{
+        height: inherit;
+        margin: 0px;
+    }
+    .header-bot .h2{
+        height: inherit ;
+        padding: 0px;
+        margin: 0px;
+        margin-top:5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-bot h1 a{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    h1 i{
+        font-size: 10px;
+    }
+    
+    .header-bot h1{
+        height: 40px;
+         font-size: 20px;
+         padding-top:10px ;
+    }
+    .header-bot h1 span{
+        font-size: 20px;
+    }
+    .header-bot h1 a{
+    font-size:20px;
+    }
+    .header-bot i{
+        top:15px;
+        right:20px
+    }
+
+    .share-logo{
+        height: 25px;
+        align-items: center;
+    }
+
+    .logo{
+        height: 20px;
+    }
+
+    .loogs{
+        height: 0px;
+        display: inline-block
+    }
+    .loogs i{
+        font-size: 10px;
+        height: 10px;
+        background-color: aqua;
+    }
+
+    .shareon{
+        height: 15px;
+        width: 80px;
+        font-size: 10px;
+        
+    }
+
+    .shareon{
+        margin: 0px;
+        padding: 0px;
+    }
+/*** bantop**/
+   
+    .ban-top{
+        margin-top: 5px;
+        width: 100%;   
+        align-items: center;     
+    }
+      .container-filleds {
+
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px;
+        padding: 0px;
+    }
+    .ban-top1
+    {
+        width: 100%;
+        display: flex;
+        padding: 0px;
+    }
+
+    .ban-top1 ul {
+        height: 30px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+
+        justify-content: center;
+    }
+
+    .ban-top li {
+        height: inherit;
+        width: 20%;
+         padding: 0px;
+        margin: 0px;
+
+    }
+
+    .ban-top a {
+        width: inherit;
+        padding: 0px;
+        font-size: 0.7rem;
+    }
+
+    .ban-top2 {
+        height: 30px;
+        width: 100%;
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ban-top2 button {
+        height: 30px;
+        margin: 0;
+    }
+
+
+
+
+/** caption**/
+    .caption{
+        height: 180px;
+        position: relative;
+        padding: 0px;
+        width: 100vw;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        
+    }
+    .caption h3{
+       padding-top: 70px;
+        font-size: 20px;
+        letter-spacing: 10px;
+    }
+    .caption p{
+        margin: 0px;
+        font-size: 15px;
+         letter-spacing: 5px;
+    }
+
+    .banner-bootom{
+        height: 200%;
+        width: 100%;
+        padding: 10px;
+    }
+    .banner-bootom1{
+        height: 412px;
+        display: block;
+        flex-direction:  column;
+        margin: 0px;
+    }
+    .fig-caption
+    {
+        height: 200px;
+         width: 100%;
+    }
+    .fig-caption2{
+        height: 200px;
+         width: 100%;
+         margin-top: 10px;
+         margin-left: 0px;
+    }
+    .clearfix
+    {
+        height: 530px;
+        width: 100%;
+        display: block;
+       
+    }
+    .clearfix1{
+        height: 274px;
+        width: 100%;
+    }
+    .clearfix1 img{
+        width: 100%;
+        height: 274px;
+    }
+    .clearfix2{
+        height: 220px;
+        width: 95%;
+        margin: 10px;
+        padding: 10px;
+    }
+   .clearfix2 h3 {
+    font-size: 20px;
+    text-transform: capitalize;
+    padding:0px;
+}
+  
+.clearfix2 p{
+    font-size: 10px;
+}
+
+.symbols i
+{
+    font-size: 15px;
+}
+
+.clearfix2 p {
+    font-size: 15px;
+    padding: 14px 0px;
+}
+.clearfix2 h2{
+    font-size: 15px;
+}
+
+
+/***trend***/
+
+.layout {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left-image,
+  .right-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .left-image figure,
+  .right-image figure {
+    height: auto;
+  }
+
+  .right-image {
+    gap: 20px;
+  }
+
+  .left-image figure figcaption h3{
+    bottom: 130px;
+    left: 90px;
+  }
+  
+  .left-image figure figcaption p{
+    bottom: 150px;
+    left: 70px;
+    letter-spacing: 5px;
+  }
+
+  .right-image .layout-two,
+  .right-image .layout-three {
+    height: auto;
+  }
+
+  .left-image img,
+  .right-image img {
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+  }
+
+  .layout-two figure figcaption h3{
+    bottom: 10px;
+    left: 90px;
+    font-size: 24px;
+  }
+  
+  .layout-two figure figcaption p{
+    bottom: 30px;
+    left: 60px;
+    letter-spacing: 5px;
+  }
+
+  .layout-three figure figcaption h3{
+    bottom: 10px;
+    left: 90px;
+    font-size: 24px;
+  }
+  
+  .layout-three figure figcaption p{
+    bottom: 30px;
+    left: 60px;
+    letter-spacing: 5px;
+  }
+
+
+.bg{
+
+    width: 100%;
+}
+.bg .box1{
+     height: 255px;   
+    width: 100%;
+}
+.bg .box2{  
+  height: 255px;   
+    width: 100%;
+}
+.bg h1{
+    padding: 75px 0px  0px;
+    font-size: 1.5rem;
+}
+
+
+.new1{
+    margin-left: 150px;
+}
+
+.banner-bottom {
+    padding: 20px;
+}
+
+.banner-bottom h3 {
+  font-size: 20px;  
+  margin-bottom: 20px;
+}
+
+.banner-1 {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    height: +10%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-1 .div1 {
+    height: 400px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.banner-1 .div2 {
+    margin-top: 10px;
+    height: 500px;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.div2 .img1{
+       height: 230px;
+    width: 100%;
+    background-size: cover;
+   margin-bottom: 10px;
+}
+.div2 .img2{
+    height: 230px;
+    width: 100%;
+    
+    background-size: cover;
+}
+
+.section{
+    height: 444px;
+    width: 100%;
+    display: block;
+}
+.section .img-3 {
+    height: 48%;
+    width: 100%;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.section .img-4 {
+    height: 48%;
+    width: 100%;
+    background-size: cover;
+}
+.section h4 {
+    font-size: 10px;
+    color: black;
+    margin: 0px;
+    padding-top: 100px;
+
+}
+.shopa{
+    padding: 0px;
+}
+
+.fix h6{
+    font-size: 1.5rem;
+}
+
+.coupans{
+    padding: 10px 0px 0px;
+}
+
+.b1 h3
+{
+    font-size: 0.7rem;
+}
+.footer{
+    height: 1200px;
+    width: 100%;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+}
+.b11{
+    width: 100%;
+    text-align: center;
+}
+.b12{
+    width: 100%;
+    text-align: center;
+}
+.b13{
+    padding-top: 30px;
+}   
+.footer2{
+    height: 150px;
+}
+.in-con{
+    flex-wrap: wrap;
+}
+.footer2 .f111{
+    width: 100%;
+}
+.f112{
+    width: 100%;
+}
+}

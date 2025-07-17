@@ -1,0 +1,142 @@
+.offers-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.offer-box {
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.offer-box img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.offer-box:hover img {
+  transform: scale(1.1);
+}
+
+.offer-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.offer-box:hover .offer-text {
+  opacity: 1;
+}
+
+.offer-text span {
+  color: #33f3d3; /* Bright aqua color for '50%' */
+}
+
+
+
+/* Effect Summary:
+Zoom-in on hover: Achieved with transform: scale(1.1).
+
+Fade-in text on hover: opacity: 0 → opacity: 1.
+
+Stylized percentage: Colored via the <span>.*/
+
+
+
+.section {
+  height: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.section .img-3 {
+  height: 100%;
+  width: 50%;
+  background: url("bb1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.section .img-3 :hover {
+}
+
+.section .img-4 {
+  height: 100%;
+  width: 50%;
+  background: url("bot_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section h4 {
+  font-size: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+.section span {
+  color: #17c3a2;
+}
+.section .a {
+  background-color: #4e484800;
+  height: 0px;
+  width: 0px;
+  display: none;
+  align-items: flex-end;
+  position:absolute;
+
+}
+.section .b {
+  background-color: #000000;
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: absolute;
+  top:0px;
+  right: 0px;
+  
+  
+}
+
+
+.img-3:hover .a {
+  display: block;
+  transition: 40s;
+  height: 100%;
+  width: 100%;
+  background-color: #81808041;
+  animation-name: div;
+animation-duration: 5s;
+animation-timing-function: ease-in;
+animation-direction: alternate;
+
+}
+
+.img-3:hover .b{
+  display: block;
+  transition:  40s;
+  height: 100%;
+  width: 100%;
+  background-color: #81808041; 
+  bottom: 0px;
+  right: 0px;
+    transition:
+    width 5s,
+    height 5s;
+}
